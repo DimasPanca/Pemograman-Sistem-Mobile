@@ -1,6 +1,25 @@
-# tokokita
+# TokoKita
 
-A new Flutter project.
+Project Flutter sederhana untuk latihan dasar Dart pada pertemuan 2.
+
+Model produk berada di `lib/models/product.dart` dan digunakan untuk menampilkan
+data contoh produk, status stok, serta perhitungan harga dan diskon.
+
+## Menjalankan project
+
+```bash
+flutter pub get
+flutter run -d chrome
+```
+
+## Menjalankan menu CLI
+
+```bash
+dart run bin/tokokita_cli.dart
+```
+
+Menu CLI menyediakan lihat, tambah, ubah, hapus produk, hitung total belanja,
+dan cek diskon kategori.
 
 ## Getting Started
 
