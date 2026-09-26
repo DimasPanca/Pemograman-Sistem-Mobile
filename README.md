@@ -14,6 +14,7 @@ Setiap pertemuan dipisah dalam foldernya masing-masing. Kode aplikasi `tokokita`
 | [`praktikum1/`](praktikum1) | Pengantar Mobile Programming & Ekosistem Flutter/Dart | Proyek Flutter awal hasil `flutter create tokokita` beserta lembar praktikum dan laporan |
 | [`praktikum2/`](praktikum2) | Dasar Dart | Penambahan `lib/models/product.dart`, `bin/tokokita_cli.dart`, dan versi awal ProductCard |
 | [`praktikum3/`](praktikum3) | Widget Dasar Stateless vs Stateful | Pemisahan widget ke `lib/widgets/product_card.dart` dengan StatefulWidget, PriceLabel, StockBadge, dan CategoryTag |
+| [`praktikum4/`](praktikum4) | Layout & UI (Row, Column, Container, Stack, ListView) | HomePage dengan header Row, Container decoration + shadow di ProductCard, badge diskon dengan Stack + Positioned, dan ListView.builder |
 
 ## Cara Menjalankan Salah Satu Praktikum
 
