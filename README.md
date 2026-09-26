@@ -1,36 +1,33 @@
-# TokoKita
+# Pemrograman Sistem Mobile
 
-Project Flutter sederhana untuk latihan dasar Dart pada pertemuan 2.
+Repositori kumpulan tugas praktikum mata kuliah Pemrograman Mobile.
 
-Model produk berada di `lib/models/product.dart` dan digunakan untuk menampilkan
-data contoh produk, status stok, serta perhitungan harga dan diskon.
+- **Nama** Dimas Panca Pamungkas
+- **NIM** 3337240063
 
-## Menjalankan project
+## Struktur
+
+Setiap pertemuan dipisah dalam foldernya masing-masing. Kode aplikasi `tokokita` di setiap folder adalah snapshot state proyek sesuai pertemuan itu, sehingga bisa dibuka langsung tanpa perlu berpindah branch.
+
+| Folder | Topik | Isi |
+| --- | --- | --- |
+| [`praktikum1/`](praktikum1) | Pengantar Mobile Programming & Ekosistem Flutter/Dart | Proyek Flutter awal hasil `flutter create tokokita` beserta lembar praktikum dan laporan |
+| [`praktikum2/`](praktikum2) | Dasar Dart | Penambahan `lib/models/product.dart`, `bin/tokokita_cli.dart`, dan versi awal ProductCard |
+| [`praktikum3/`](praktikum3) | Widget Dasar Stateless vs Stateful | Pemisahan widget ke `lib/widgets/product_card.dart` dengan StatefulWidget, PriceLabel, StockBadge, dan CategoryTag |
+
+## Cara Menjalankan Salah Satu Praktikum
 
 ```bash
+cd praktikum3/tokokita
 flutter pub get
 flutter run -d chrome
 ```
 
-## Menjalankan menu CLI
+Ganti `praktikum3` dengan folder pertemuan lain yang ingin dijalankan.
+
+Untuk versi CLI pada Praktikum 2 dapat dijalankan dengan
 
 ```bash
+cd praktikum2/tokokita
 dart run bin/tokokita_cli.dart
 ```
-
-Menu CLI menyediakan lihat, tambah, ubah, hapus produk, hitung total belanja,
-dan cek diskon kategori.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
