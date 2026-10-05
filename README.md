@@ -15,6 +15,7 @@ Setiap pertemuan dipisah dalam foldernya masing-masing. Kode aplikasi `tokokita`
 | [`praktikum2/`](praktikum2) | Dasar Dart | Penambahan `lib/models/product.dart`, `bin/tokokita_cli.dart`, dan versi awal ProductCard |
 | [`praktikum3/`](praktikum3) | Widget Dasar Stateless vs Stateful | Pemisahan widget ke `lib/widgets/product_card.dart` dengan StatefulWidget, PriceLabel, StockBadge, dan CategoryTag |
 | [`praktikum4/`](praktikum4) | Layout & UI (Row, Column, Container, Stack, ListView) | HomePage dengan header Row, Container decoration + shadow di ProductCard, badge diskon dengan Stack + Positioned, dan ListView.builder |
+| [`praktikum5/`](praktikum5) | Navigasi dan Routing | Named routes, ProductDetailPage dengan Navigator.pushNamed + Navigator.pop membawa nilai, SnackBar hasil pop, MainPage dengan BottomNavigationBar (Beranda, Keranjang, Profil) |
 
 ## Cara Menjalankan Salah Satu Praktikum
 
