@@ -22,6 +22,7 @@ Setiap pertemuan dipisah dalam foldernya masing-masing. Kode aplikasi `tokokita`
 | [`praktikum10/`](praktikum10) | Integrasi Firebase (Auth dan Firestore) | Login dan registrasi Firebase Auth, pesanan di Cloud Firestore dengan StreamBuilder, aturan keamanan per pengguna (diuji di Firebase Emulator) |
 | [`praktikum11/`](praktikum11) | UI Lanjutan dan Animasi | Theming terpusat (ThemeData dan ThemeExtension), animasi implisit dan eksplisit, Hero pada gambar produk |
 | [`praktikum13/`](praktikum13) | Fitur Perangkat (Kamera, GPS, Sensor) | Foto profil (image_picker), alamat dari GPS (geolocator) pada pesanan, deteksi guncangan (sensors_plus), dan izin terpusat (permission_handler), diuji di Chrome dengan perangkat keras disimulasikan |
+| [`praktikum14/`](praktikum14) | Persiapan Project (Perencanaan, Testing, Build) | Dokumen perencanaan project akhir, 14 unit test dan 4 widget test, serta build APK release (53.7 MB) |
 
 ## Cara Menjalankan Salah Satu Praktikum
 
