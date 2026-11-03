@@ -21,6 +21,7 @@ Setiap pertemuan dipisah dalam foldernya masing-masing. Kode aplikasi `tokokita`
 | [`praktikum9/`](praktikum9) | Local Storage (SharedPreferences dan SQLite sqflite) | WishlistController dengan SharedPreferences, WishlistPage, OrderDatabase sqflite (tabel orders), OrderController, checkout yang menyimpan pesanan, dan halaman Riwayat Pesanan dengan filter status, pencarian WHERE, update, serta delete |
 | [`praktikum10/`](praktikum10) | Integrasi Firebase (Auth dan Firestore) | Login dan registrasi Firebase Auth, pesanan di Cloud Firestore dengan StreamBuilder, aturan keamanan per pengguna (diuji di Firebase Emulator) |
 | [`praktikum11/`](praktikum11) | UI Lanjutan dan Animasi | Theming terpusat (ThemeData dan ThemeExtension), animasi implisit dan eksplisit, Hero pada gambar produk |
+| [`praktikum13/`](praktikum13) | Fitur Perangkat (Kamera, GPS, Sensor) | Foto profil (image_picker), alamat dari GPS (geolocator) pada pesanan, deteksi guncangan (sensors_plus), dan izin terpusat (permission_handler), diuji di Chrome dengan perangkat keras disimulasikan |
 
 ## Cara Menjalankan Salah Satu Praktikum
 
