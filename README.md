@@ -19,6 +19,7 @@ Setiap pertemuan dipisah dalam foldernya masing-masing. Kode aplikasi `tokokita`
 | [`praktikum6/`](praktikum6) | State Management dengan GetX | CartController reaktif (RxList, Obx), routing Get.to/Get.back/Get.off, dependency injection Get.put/Get.find, halaman Keranjang nyata dengan quantity + total harga, dialog kosongkan, dan CheckoutPage |
 | [`praktikum7/`](praktikum7) | HTTP Networking dan Konsumsi REST API | ProductService dengan http.get, Product.fromJson, FutureBuilder (loading, error, Coba Lagi), RefreshIndicator, dan fetchProductDetail dari Fake Store API |
 | [`praktikum9/`](praktikum9) | Local Storage (SharedPreferences dan SQLite sqflite) | WishlistController dengan SharedPreferences, WishlistPage, OrderDatabase sqflite (tabel orders), OrderController, checkout yang menyimpan pesanan, dan halaman Riwayat Pesanan dengan filter status, pencarian WHERE, update, serta delete |
+| [`praktikum10/`](praktikum10) | Integrasi Firebase (Auth dan Firestore) | Login dan registrasi Firebase Auth, pesanan di Cloud Firestore dengan StreamBuilder, aturan keamanan per pengguna (diuji di Firebase Emulator) |
 
 ## Cara Menjalankan Salah Satu Praktikum
 
