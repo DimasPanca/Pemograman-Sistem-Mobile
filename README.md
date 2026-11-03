@@ -17,6 +17,7 @@ Setiap pertemuan dipisah dalam foldernya masing-masing. Kode aplikasi `tokokita`
 | [`praktikum4/`](praktikum4) | Layout & UI (Row, Column, Container, Stack, ListView) | HomePage dengan header Row, Container decoration + shadow di ProductCard, badge diskon dengan Stack + Positioned, dan ListView.builder |
 | [`praktikum5/`](praktikum5) | Navigasi dan Routing | Named routes, ProductDetailPage dengan Navigator.pushNamed + Navigator.pop membawa nilai, SnackBar hasil pop, MainPage dengan BottomNavigationBar (Beranda, Keranjang, Profil) |
 | [`praktikum6/`](praktikum6) | State Management dengan GetX | CartController reaktif (RxList, Obx), routing Get.to/Get.back/Get.off, dependency injection Get.put/Get.find, halaman Keranjang nyata dengan quantity + total harga, dialog kosongkan, dan CheckoutPage |
+| [`praktikum7/`](praktikum7) | HTTP Networking dan Konsumsi REST API | ProductService dengan http.get, Product.fromJson, FutureBuilder (loading, error, Coba Lagi), RefreshIndicator, dan fetchProductDetail dari Fake Store API |
 
 ## Cara Menjalankan Salah Satu Praktikum
 
