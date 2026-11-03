@@ -59,6 +59,8 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
 
   void _tambahKeKeranjang() {
     cart.addToCart(_produk, jumlah: jumlah);
+    // Get.back harus dipanggil sebelum snackbar, kalau tidak hanya snackbar yang tertutup
+    Get.back();
     Get.snackbar(
       'Masuk keranjang',
       '$jumlah ${_produk.name} ditambahkan ke keranjang',
@@ -68,7 +70,6 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
       margin: const EdgeInsets.all(12),
       duration: const Duration(seconds: 2),
     );
-    Get.back();
   }
 
   @override
